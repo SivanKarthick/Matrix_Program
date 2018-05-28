@@ -1,0 +1,17 @@
+.row div {
+	float:left;
+	height: 50px;
+	border: 1px solid black;
+	text-align:center;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.child:nth-child(even) {
+	background: #e4dad8;
+}
+.child:nth-child(odd) {
+	background: #7d4b6c;
+}
